@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 public class OperatorPageRepository {
-
+//xpath
 	WebDriver driver;
 	@FindBy(id = "email")
 	public WebElement email;
