@@ -21,7 +21,7 @@ public class TestBase {
 	public ExtentTest test;
 	public ExtentTest testPrePage;
 	
-	String readAnyProperty( String propName) {
+	public String readAnyProperty( String propName) {
 		String val = null;
 		try {
 			fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/resources/" + "/Config.properties");
