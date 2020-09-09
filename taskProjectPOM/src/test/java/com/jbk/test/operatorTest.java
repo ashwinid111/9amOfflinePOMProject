@@ -63,4 +63,9 @@ public class operatorTest extends TestBase {
 		ExtentTest test4=testPrePage.createNode("TestCase Name.....validateStartWithVendorName");
 		Assert.assertTrue(OP.checkPersonListIsSort(test4));
 	}
+	@Test(priority = 5)
+	public void validateMobileNumbers() {
+		ExtentTest test5=testPrePage.createNode("TestCase Name.....validateMobileNumbers");
+		Assert.assertTrue(OP.validateContact(test5));
+	}
 }

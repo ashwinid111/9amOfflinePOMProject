@@ -22,7 +22,11 @@ public class OperatorPageRepository {
 	public List<WebElement> headers;
 	@FindBy(xpath = "//table[@class='table table-hover']//child::tr//td[1]")
 	public List<WebElement> tableRow;
-	/*@FindBy(xpath = "//h3[text()='Operator List']")
+	@FindBy(xpath = "//tr[*]/td[5]")
+	public List<WebElement> mobilenos;
+	/*@FindBy(xpath = "//tr[3]/td[5]")
+	public WebElement mobile3;
+	@FindBy(xpath = "//h3[text()='Operator List']")
 	private WebElement operatorlist;
 	@FindBy(xpath = "//tr[1]")
 	WebElement header;*/
