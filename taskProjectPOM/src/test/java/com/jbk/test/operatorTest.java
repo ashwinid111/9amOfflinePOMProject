@@ -23,25 +23,25 @@ public class operatorTest extends TestBase {
 
 	@BeforeTest
 	public void BeforeTest() {
-		super.setReport(pageName, extentReprtName, hostName, environment, uName, docTitle, reportName);
+		setReport(pageName, extentReprtName, hostName, environment, uName, docTitle, reportName);
 	}
 	@AfterTest
 	public void AfterTest() {
-		super.endReport();
+		endReport();
 	}
 	@BeforeClass
 	public void BeforeClass() {
-		super.extenttestNode();
+		extenttestNode();
 	}
 	@BeforeMethod
 	public void OpenBrowser() throws Throwable {
-		driver=super.launchApplication();
+		driver=launchApplication();
 		OP = new operator(driver);
 		OP.NavigateToAddUserPage();
 	}
 	@AfterMethod
 	public void closeBrowser() {
-		super.CloseLaunchApplication();
+		CloseLaunchApplication();
 	}
 	@Test(priority = 1)
 	public void onecell() {
