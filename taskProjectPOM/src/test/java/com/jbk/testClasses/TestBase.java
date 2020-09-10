@@ -1,6 +1,9 @@
 package com.jbk.testClasses;
 import java.io.FileInputStream;
 import java.util.Properties;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import com.aventstack.extentreports.ExtentReports;
@@ -13,6 +16,7 @@ public class TestBase {
 	Properties prop = null;
 	FileInputStream fis = null;
 	LoginPage lp=null;
+	Logger logger=null;
 	
 //extent report variables
 	
@@ -74,6 +78,17 @@ public class TestBase {
 	}
 	public void extenttestNode() {
 		testPrePage=test.createNode("OperatorPage");
+	}
+	// added code for LogTest By Sunil
+	
+	
+	public Logger testLogs(){
+		logger=Logger.getLogger(this.getClass());
+		String path=(System.getProperty("user.dir")+"/log4jTest.properties");
+		PropertyConfigurator.configure(path);
+		return logger;
+		
+		
 	}
 	
 }
