@@ -1,3 +1,11 @@
 2020-08-30 10:30:44,998  INFO [main] DashBoradPage:33 - i am in verifyTitlePage Method......
 2020-09-02 10:10:39,078  INFO [main] DashBoradPage:23 - this is getTitleMethod
 2020-09-02 10:25:43,529  INFO [main] DashBoradPage:23 - this is getTitleMethod
+2020-09-11 10:28:51,372  INFO [main] DashBoradPage:25 - this is getTitleMethod
+2020-09-11 10:28:51,393  INFO [main] DashBoradPage:57 - this is verifyLogoutLabel method 
+2020-09-11 10:28:51,397  INFO [main] DashBoradPage:51 - this is getLabelLogout method 
+2020-09-11 10:28:51,479  INFO [main] DashBoradPage:77 - this is verifyHeader method
+2020-09-11 10:28:51,526  INFO [main] DashBoradPage:95 - this is verifyCourseHeaders method
+2020-09-11 10:28:52,213  INFO [main] DashBoradPage:151 - this is verifyNumberOfCourses method
+2020-09-11 10:28:52,251  INFO [main] DashBoradPage:169 - this is verifyAllCourseslinks method
+2020-09-11 10:28:53,100  INFO [main] DashBoradPage:186 - this is verifyCourseNames Method 
