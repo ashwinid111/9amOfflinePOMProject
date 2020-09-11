@@ -4,6 +4,8 @@ import java.io.File;
 import java.util.ArrayList;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+
+import com.aventstack.extentreports.ExtentTest;
 import com.jbk.repository.DashBoardPageRepository;
 import jxl.Sheet;
 import jxl.Workbook;
@@ -21,12 +23,13 @@ WebDriver driver;
 
 	public String getTitleofPage() {
 		PageLogs().info("this is getTitleMethod");
+		
 		return driver.getTitle();
 		
 	}
 
-	public boolean verifyTitleOfPage() {
-		
+	public boolean verifyTitleOfPage(ExtentTest test1) {
+		test1.info("My First Test Case");
 		try {
 			if (getTitleofPage().equals("JavaByKiran | Dashboard")) {
 				return true;
@@ -49,7 +52,8 @@ WebDriver driver;
 		return logoutLable.getText();
 	}
 
-	public boolean verifyLogoutLabel() {
+	public boolean verifyLogoutLabel(ExtentTest test2) {
+		test2.info("My Two Test Case");
 		PageLogs().info("this is verifyLogoutLabel method ");
 		//---
 		try {
@@ -68,7 +72,8 @@ WebDriver driver;
 
 	}
 
-	public boolean verifyHeader() {
+	public boolean verifyHeader(ExtentTest test3) {
+		test3.info("My Three Test Case");
 		PageLogs().info("this is verifyHeader method");
 		//---
 		try {
@@ -85,7 +90,8 @@ WebDriver driver;
 		}
 	}
 
-	public boolean verifyCourseHeaders() {
+	public boolean verifyCourseHeaders(ExtentTest test4) {
+		test4.info("My Four Test Case");
 		PageLogs().info("this is verifyCourseHeaders method");
 		//---
 		boolean flag = true;
@@ -140,7 +146,8 @@ WebDriver driver;
 	}
 	// return flag;
 
-	public boolean verifyNumberOfCourses() {
+	public boolean verifyNumberOfCourses(ExtentTest test5) {
+		test5.info("My Five Test Case");
 		PageLogs().info("this is verifyNumberOfCourses method");
 		//---
 		try {
@@ -157,7 +164,8 @@ WebDriver driver;
 		}
 	}
 
-	public boolean verifyAllCourseslinks() {
+	public boolean verifyAllCourseslinks(ExtentTest test6) {
+		test6.info("My Six Test Case");
 		PageLogs().info("this is verifyAllCourseslinks method");
 		boolean flag = false;
 		try {
@@ -173,8 +181,8 @@ WebDriver driver;
 
 	}
 
-	public boolean verifyCourseNames() {
-		
+	public boolean verifyCourseNames(ExtentTest test7) {
+		test7.info("My Sevan Test Case");
 		PageLogs().info("this is verifyCourseNames Method ");
 		
 		boolean flag = true;
