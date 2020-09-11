@@ -1,73 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="82963" started-at="2020-09-01T09:22:29Z" finished-at="2020-09-01T09:23:52Z">
+  <suite name="Default suite" duration-ms="3641" started-at="2020-09-11T04:58:50Z" finished-at="2020-09-11T04:58:54Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="82963" started-at="2020-09-01T09:22:29Z" finished-at="2020-09-01T09:23:52Z">
-      <class name="com.jbk.test.LoginTestCases">
-        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="loadUrl" is-config="true" duration-ms="17910" started-at="2020-09-01T14:52:29Z" finished-at="2020-09-01T14:52:47Z">
+    <test name="Default test" duration-ms="3641" started-at="2020-09-11T04:58:50Z" finished-at="2020-09-11T04:58:54Z">
+      <class name="com.jbk.test.DashBoradPage_Test">
+        <test-method status="PASS" signature="run_First()[pri:0, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="run_First" is-config="true" duration-ms="10565" started-at="2020-09-11T10:28:40Z" finished-at="2020-09-11T10:28:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loadUrl -->
-        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="checkTitle" duration-ms="42" started-at="2020-09-01T14:52:47Z" finished-at="2020-09-01T14:52:47Z">
+        </test-method> <!-- run_First -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="BeforeTest" is-config="true" duration-ms="382" started-at="2020-09-11T10:28:50Z" finished-at="2020-09-11T10:28:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTitle -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="closeApplication" is-config="true" duration-ms="430" started-at="2020-09-01T14:52:47Z" finished-at="2020-09-01T14:52:47Z">
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="BeforeClass" is-config="true" duration-ms="1" started-at="2020-09-11T10:28:51Z" finished-at="2020-09-11T10:28:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="loadUrl" is-config="true" duration-ms="12625" started-at="2020-09-01T14:52:47Z" finished-at="2020-09-01T14:53:00Z">
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="test_DashBoardTitle()[pri:1, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="test_DashBoardTitle" duration-ms="63" started-at="2020-09-11T10:28:51Z" finished-at="2020-09-11T10:28:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loadUrl -->
-        <test-method status="PASS" signature="checkHeading()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="checkHeading" duration-ms="156" started-at="2020-09-01T14:53:00Z" finished-at="2020-09-01T14:53:00Z">
+        </test-method> <!-- test_DashBoardTitle -->
+        <test-method status="PASS" signature="test_LogoutText()[pri:2, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="test_LogoutText" duration-ms="86" started-at="2020-09-11T10:28:51Z" finished-at="2020-09-11T10:28:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkHeading -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="closeApplication" is-config="true" duration-ms="2186" started-at="2020-09-01T14:53:00Z" finished-at="2020-09-01T14:53:02Z">
+        </test-method> <!-- test_LogoutText -->
+        <test-method status="PASS" signature="test_PageHeaderPageText()[pri:3, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="test_PageHeaderPageText" duration-ms="45" started-at="2020-09-11T10:28:51Z" finished-at="2020-09-11T10:28:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="loadUrl" is-config="true" duration-ms="13176" started-at="2020-09-01T14:53:02Z" finished-at="2020-09-01T14:53:15Z">
+        </test-method> <!-- test_PageHeaderPageText -->
+        <test-method status="PASS" signature="test_CoursesHeaders()[pri:4, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="test_CoursesHeaders" duration-ms="683" started-at="2020-09-11T10:28:51Z" finished-at="2020-09-11T10:28:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loadUrl -->
-        <test-method status="PASS" signature="checkLoginBoxMsg()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="checkLoginBoxMsg" duration-ms="236" started-at="2020-09-01T14:53:15Z" finished-at="2020-09-01T14:53:16Z">
+        </test-method> <!-- test_CoursesHeaders -->
+        <test-method status="PASS" signature="test_NumberOfCourses()[pri:5, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="test_NumberOfCourses" duration-ms="34" started-at="2020-09-11T10:28:52Z" finished-at="2020-09-11T10:28:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkLoginBoxMsg -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="closeApplication" is-config="true" duration-ms="268" started-at="2020-09-01T14:53:16Z" finished-at="2020-09-01T14:53:16Z">
+        </test-method> <!-- test_NumberOfCourses -->
+        <test-method status="PASS" signature="test_AllCoursesLinks()[pri:6, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="test_AllCoursesLinks" duration-ms="850" started-at="2020-09-11T10:28:52Z" finished-at="2020-09-11T10:28:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="loadUrl" is-config="true" duration-ms="12312" started-at="2020-09-01T14:53:16Z" finished-at="2020-09-01T14:53:28Z">
+        </test-method> <!-- test_AllCoursesLinks -->
+        <test-method status="PASS" signature="test_CoursesNames()[pri:7, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="test_CoursesNames" duration-ms="520" started-at="2020-09-11T10:28:53Z" finished-at="2020-09-11T10:28:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loadUrl -->
-        <test-method status="PASS" signature="checkNavigationBetRegPageAndLogin()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="checkNavigationBetRegPageAndLogin" duration-ms="1934" started-at="2020-09-01T14:53:28Z" finished-at="2020-09-01T14:53:30Z">
+        </test-method> <!-- test_CoursesNames -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="AfterTest" is-config="true" duration-ms="928" started-at="2020-09-11T10:28:53Z" finished-at="2020-09-11T10:28:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkNavigationBetRegPageAndLogin -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="closeApplication" is-config="true" duration-ms="3625" started-at="2020-09-01T14:53:30Z" finished-at="2020-09-01T14:53:34Z">
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="close_Browser()[pri:0, instance:com.jbk.test.DashBoradPage_Test@91161c7]" name="close_Browser" is-config="true" duration-ms="16" started-at="2020-09-11T10:28:54Z" finished-at="2020-09-11T10:28:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="loadUrl" is-config="true" duration-ms="15300" started-at="2020-09-01T14:53:34Z" finished-at="2020-09-01T14:53:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadUrl -->
-        <test-method status="PASS" signature="validateInvalidLoginCred()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="validateInvalidLoginCred" duration-ms="551" started-at="2020-09-01T14:53:49Z" finished-at="2020-09-01T14:53:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateInvalidLoginCred -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.jbk.test.LoginTestCases@1531931]" name="closeApplication" is-config="true" duration-ms="2174" started-at="2020-09-01T14:53:50Z" finished-at="2020-09-01T14:53:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- com.jbk.test.LoginTestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- close_Browser -->
+      </class> <!-- com.jbk.test.DashBoradPage_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
